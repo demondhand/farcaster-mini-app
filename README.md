@@ -1,66 +1,23 @@
-## Foundry
+# Shadowmint Tiers – Smart Contract
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Smart contract project built using Foundry, designed for tier-based logic within a Web3/Farcaster ecosystem.
 
-Foundry consists of:
+## Features
+- Tier-based contract logic
+- Foundry testing setup
+- Scripted deployment structure
+- Modular contract architecture
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Tech Stack
+- Solidity
+- Foundry
+- Forge-Std
 
-## Documentation
+## Structure
+- src/ – Smart contracts
+- script/ – Deployment scripts
+- test/ – Unit tests
 
-https://book.getfoundry.sh/
+## Author
+Rama Gumilar
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
